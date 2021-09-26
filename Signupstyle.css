@@ -34,7 +34,48 @@ nav img{
     margin-left: 30vw;
     margin-right: 30vw;
     margin-top: 90px;
-    border: 2px solid rgb(209, 27, 27);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
+    text-align: center;
+    padding: 20px;
+}
+.container h1{
+    color: rgb(209, 27, 27);
+    letter-spacing: 15px;
+    font-weight: 700;
+    margin: 10px;
+}
+.container p{
+    padding: 5px;
+    color: grey;
+    font-weight: 600;
+    margin: 10px;
+}
+.container input{
+    border: 2px solid rgb(209, 27, 27);
+    padding: 10px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    text-align: center;
+    border-radius: 20px;
+}
+.container input[type=submit]{
+    background-color: rgb(209, 27, 27);
+    border: none;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 1200px) 
+{
+    .container{
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+}
+@media screen and (max-width: 768px) 
+{
+    .container{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }

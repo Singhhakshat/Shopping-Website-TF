@@ -84,6 +84,8 @@ nav img{
     padding-right: 10vw;
     margin: 5px;
     border: 2px solid rgb(209, 27, 27);
+    text-align: center;
+    border-radius: 20px;
 }
 .login button{
     background-color: rgb(209, 27, 27);
