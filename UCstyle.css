@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(209, 27 , 27);
+    padding: 30px;
+}
+h1{
+    color: white;
+    letter-spacing: 10px;
+    margin: 50px;
+}
+.container{
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center  ;
+}

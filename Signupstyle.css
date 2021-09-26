@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: royalblue;
+    width: 100%;
+}
+nav a{
+    position: absolute;
+    left: 2%;
+    top: 2vh;
+    color: rgb(209, 27, 27);
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 600;
+}
+nav a:hover{
+    border-bottom: 2px solid rgb(209, 27, 27);
+}
+nav img{
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    top: 4vh;
+    transform: translate(-50%,-50%);
+}
+.container{
+    margin-left: 30vw;
+    margin-right: 30vw;
+    margin-top: 90px;
+    border: 2px solid rgb(209, 27, 27);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
